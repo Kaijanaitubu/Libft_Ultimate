@@ -6,7 +6,7 @@
 /*   By: tubu <tubu@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 13:50:23 by kmogami           #+#    #+#             */
-/*   Updated: 2025/01/08 15:55:33 by tubu             ###   ########.fr       */
+/*   Updated: 2025/01/08 16:23:56 by tubu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,10 +16,6 @@ void	ft_putstr_fd(char *s, int fd)
 {
 	int	i;
 
-	i = 0;
-	while (s[i])
-	{
-		ft_putchar_fd(s[i], fd);
-		i++;
-	}
+	i = ft_strlen(s);
+	write(fd, s, i);
 }

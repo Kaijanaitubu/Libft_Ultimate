@@ -6,7 +6,7 @@
 /*   By: tubu <tubu@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/22 20:31:55 by tubu              #+#    #+#             */
-/*   Updated: 2025/01/08 15:55:33 by tubu             ###   ########.fr       */
+/*   Updated: 2025/01/08 16:29:52 by tubu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,8 +45,8 @@ int	ft_printf(const char *str, ...)
 	{
 		if (str[i] == '%')
 		{
-			out_len += formats(args, str[i + 1]);
 			i++;
+			out_len += formats(args, str[i]);
 		}
 		else
 			out_len += printchar(str[i]);

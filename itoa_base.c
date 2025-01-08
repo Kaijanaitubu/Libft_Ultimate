@@ -6,21 +6,11 @@
 /*   By: tubu <tubu@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/22 22:07:11 by tubu              #+#    #+#             */
-/*   Updated: 2025/01/08 15:56:06 by tubu             ###   ########.fr       */
+/*   Updated: 2025/01/08 16:01:24 by tubu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft_ult.h"
-
-size_t	ft_strlen(const char *s)
-{
-	size_t	i;
-
-	i = 0;
-	while (s[i])
-		i++;
-	return (i);
-}
 
 size_t	numlen(unsigned long long num, size_t base_len)
 {
