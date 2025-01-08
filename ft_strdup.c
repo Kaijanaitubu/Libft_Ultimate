@@ -6,7 +6,7 @@
 /*   By: tubu <tubu@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 13:50:51 by kmogami           #+#    #+#             */
-/*   Updated: 2025/01/08 15:55:33 by tubu             ###   ########.fr       */
+/*   Updated: 2025/01/08 16:47:10 by tubu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,12 @@
 
 char	*ft_strdup(const char *s1)
 {
-	char	*copy;
-	size_t	i;
+	ssize_t		src_len;
+	char		*copy;
+	size_t		i;
 
-	copy = (char *)malloc(sizeof(*s1) * (ft_strlen(s1) + 1));
+	src_len = ft_strlen(s1);
+	copy = (char *)malloc(sizeof(char) * (src_len + 1));
 	if (!copy)
 		return (NULL);
 	i = 0;
