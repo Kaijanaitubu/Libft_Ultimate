@@ -6,11 +6,11 @@
 /*   By: tubu <tubu@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 13:56:40 by kmogami           #+#    #+#             */
-/*   Updated: 2025/01/07 22:27:21 by tubu             ###   ########.fr       */
+/*   Updated: 2025/01/08 15:55:33 by tubu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_ult.h"
 
 ssize_t	ft_strlen(const char *s)
 {

@@ -6,12 +6,11 @@
 /*   By: tubu <tubu@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/22 22:07:11 by tubu              #+#    #+#             */
-/*   Updated: 2024/08/23 14:17:33 by tubu             ###   ########.fr       */
+/*   Updated: 2025/01/08 15:56:06 by tubu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
-#include <stdio.h>
+#include "libft_ult.h"
 
 size_t	ft_strlen(const char *s)
 {

@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   printer.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kmogami <kmogami@student.42.fr>            +#+  +:+       +#+        */
+/*   By: tubu <tubu@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/22 21:22:48 by tubu              #+#    #+#             */
-/*   Updated: 2024/08/23 18:22:42 by kmogami          ###   ########.fr       */
+/*   Updated: 2025/01/08 15:56:12 by tubu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
-#include <stdio.h>
+#include "libft_ult.h"
 
 ssize_t	printchar(int c)
 {
